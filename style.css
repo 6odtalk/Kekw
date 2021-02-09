@@ -1,0 +1,139 @@
+#body {
+	background-color: #141414;
+	margin-right: 40px;
+	margin-left: 40px;
+  margin-top: -10px;
+  font-family: Cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#k12 {
+  background: #EC8F4E;
+  border-radius: 3px;
+}
+
+/* Visible search */
+#for {
+  position: relative;
+  right: 30px;
+  bottom: 42px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#ser, #clc {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+#ser {
+  width: 100%;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+  font-family: Cursive;
+}
+
+#clc {
+  height: 42px;
+  width: 30px;
+  position: absolute;
+  top: 0px;
+  right: -27px;
+  background: #F9F0DA;
+  cursor: pointer;
+}
+
+#clc:before {
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#clc:hover {
+  background: #404040;
+}
+
+#pos {
+	width: 100%;
+  height: auto;
+}
+
+#nav,#nav li {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  position: relative;
+  left: 1150px;
+	height: 42px;
+  text-align:  center;
+  width: 700px;
+}
+
+.serch {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+.ssl{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 15px;
+  height: 42px;
+}
+
+#nav .serch:hover {
+  background: #404040;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 7px 15px;
+  height: 42px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: -30px;
+  top: 42px;
+  background-color: #F9F0DA;
+  min-width: 160px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #8A7595;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content .got1:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+#name1 {
+  position: absolute;
+  left: 90px;
+  top: 10px;
+}
+
+#vid1 {
+  position: absolute;
+  top: 65px;
+}
